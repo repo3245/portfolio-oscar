@@ -32,13 +32,13 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">user@gmail.com</span>
+              <span className="contact__card-data">alcalderabanalo@gmail.com</span>
 
               <a
                 href="mailto:examplemail@gmail.com"
                 className="contact__button"
               >
-                Write me{" "}
+                Email me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -47,13 +47,13 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">720-000-0000</span>
+              <span className="contact__card-data">720-238-9866</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=123123123&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=7202389866&text=Hello"
                 className="contact__button"
               >
-                Write me{" "}
+                Message me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -62,10 +62,10 @@ const Contact = () => {
               <i className="bx bxl-messenger contact__card-icon"></i>
 
               <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">user.fb123</span>
+              <span className="contact__card-data">Oscar Alcalde Rabanal</span>
 
-              <a href="https://m.me/crypticalcoder" className="contact__button">
-                Write me{" "}
+              <a href="https://m.me/oscar" className="contact__button">
+                Message me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -87,7 +87,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div">
-              <label className="contact__form-tag">Mail</label>
+              <label className="contact__form-tag">Email</label>
               <input
                 type="email"
                 name="email"
@@ -97,13 +97,13 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Message</label>
               <textarea
                 name="project"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your project"
+                placeholder="Enter your message"
               ></textarea>
             </div>
 

@@ -51,20 +51,50 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    User interface development, ensuring it is intuitive, user-friendly, and visually appealing.
+                    Develop user interface development, ensuring it is intuitive, user-friendly, and visually appealing.
 
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Contact me today to discuss how I can help bring your project to life.</p>
+                  <p className="services__modal-info">
+                    Certified in modern web development frameworks and best practices.
+                  </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    Certified in modern web development frameworks and best practices.
+                    Proficient in JavaScript for interactive and dynamic web functionality.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Skilled in HTML for structuring web content.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Experienced with CSS for styling and layout design.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Expertise in React for building component-based user interfaces.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Knowledge of React Native for developing mobile applications.
                   </p>
                 </li>
 
@@ -128,6 +158,62 @@ const Services = () => {
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
                     Rigorous quality assurance processes ensure that all deliverables meet the highest standards of quality.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Design and development of microservices for enhanced modularity and scalability.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Development and deployment of serverless applications.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Containerization of applications using Docker.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Management of container orchestration with Kubernetes or Docker Swarm.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Implementation of cloud-native technologies for scalable and resilient applications.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Collaboration with DevOps teams to streamline deployment processes.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Automation of infrastructure provisioning using tools like GitHub Actions or Tekton.
+                  </p>
+                </li>
+
+                <li className="services__modal-service">
+                  <i className="uil uil-check-circle services__modal-icon"></i>
+                  <p className="services__modal-info">
+                    Participation in Agile/Scrum environments for iterative and incremental development.
                   </p>
                 </li>
 

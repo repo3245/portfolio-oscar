@@ -9,6 +9,7 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
+  --onhover-color: #40A9FF;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
@@ -50,6 +51,11 @@
   --z-modal: 1000;
 }
 
+.main__color {
+  background-color: whitesmoke;
+  /* 5d9494 */
+}
+
 /* Responsive typography */
 @media screen and (max-width: 992px) {
   :root {
@@ -57,9 +63,9 @@
     --h1-font-size: 1.9rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1rem;
-    --normal-font-size: 0.938rem;
+    --medium-font-size: 2.2rem;
     --small-font-size: 2rem;
-    --smaller-font-size: 0.75rem;
+    --smaller-font-size: 1rem;
   }
 }
 
@@ -157,7 +163,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: var(--title-color);
 }
 
 .button__icon {

@@ -13,7 +13,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">MongoDB</h3>
-              <span className="skills__level">Learning</span>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
 
@@ -22,7 +22,7 @@ const Backend = () => {
 
             <div>
               <h3 className="skills__name">Node.js</h3>
-              <span className="skills__level">Basic</span>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -37,21 +37,13 @@ const Backend = () => {
         </div>
 
         <div className="skills__group">
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">MySQL</h3>
-              <span className="skills__level">Beginner</span>
-            </div>
-          </div>
 
           <div className="skills__data">
             <i class="bx bx-badge-check"></i>
 
             <div>
               <h3 className="skills__name">Firebase</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
 
@@ -59,10 +51,29 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">SQL</h3>
-              <span className="skills__level">Beginner</span>
+              <h3 className="skills__name">NoSQL</h3>
+              <span className="skills__level">Basic</span>
             </div>
           </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Microservices</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Serverless</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

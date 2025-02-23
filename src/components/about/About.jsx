@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
+import AboutImg from "../../assets/profile.png";
 import CV from "../../assets/Smith-Cv.pdf";
 import Info from "./Info";
 
@@ -18,11 +18,8 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            Hello! I'm a passionate web developer specializing in JavaScript, Node.js, React, React Native, CSS, and HTML. I love creating dynamic, user-friendly web applications and turning complex problems into elegant solutions. Whether it's building back-end systems, crafting front-end interfaces, or developing mobile apps, I'm committed to delivering high-quality, scalable code. I stay updated with the latest trends and am eager to bring your digital ideas to life. Let's collaborate!
           </p>
-
 
         </div>
       </div>

@@ -25,7 +25,7 @@ const Header = () => {
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
-            <li className="nav__item">
+            <li>
               <a
                 href="#home"
                 onClick={() => setActiveNav("#home")}

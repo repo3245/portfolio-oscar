@@ -4,23 +4,14 @@ const Social = () => {
   return (
     <div className="home__social">
       <a
-        href="https://www.instagram.com/"
+        href="https://www.facebook.com/profile.php?id=100081053566110"
         className="home__social-icon"
         target="_blank"
       >
-        <i className="uil uil-instagram"></i>
+        <i className="uil uil-facebook"></i>
       </a>
-
       <a
-        href="https://dribbble.com/"
-        className="home__social-icon"
-        target="_blank"
-      >
-        <i className="uil uil-dribbble"></i>
-      </a>
-
-      <a
-        href="https://github.com/"
+        href="https://github.com/repo3245"
         className="home__social-icon"
         target="_blank"
       >

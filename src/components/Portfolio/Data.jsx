@@ -1,39 +1,59 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import Work1 from "../../assets/work01.png";
+import Work2 from "../../assets/work02.png";
+import Work3 from "../../assets/work03.png";
+import Work4 from "../../assets/work04.png";
+import Work5 from "../../assets/work05.png";
+import Work6 from "../../assets/work06.png";
+import Work7 from "../../assets/conscious.png";
 
 export const projectsData = [
   {
     id: 1,
     image: Work1,
-    title: "Meal-on-Wheels",
+    title: "Meal To Go",
+    description: "A mobile application designed to help users find and order meals on the go, featuring a user-friendly interface and quick delivery options.",
     category: "app",
+    link: "https://github.com/repo3245/MealsToGo"
   },
   {
     id: 2,
     image: Work2,
     title: "Conscious Hypnosis App",
+    description: "An app that provides guided hypnosis sessions to help users relax, reduce stress, and improve mental well-being.",
     category: "app",
+    image2: Work7
   },
   {
     id: 3,
     image: Work3,
     title: "Conscious Wear OS App",
+    description: "A Wear OS application that integrates with the Conscious Hypnosis App, allowing users to access sessions directly from their smartwatch.",
     category: "app",
+    link: "https://github.com/repo3245/ConsciousSW-wearOS-master-update"
   },
   {
     id: 4,
     image: Work4,
-    title: "Inventory Management System",
+    title: "Bird Street Bistro Inventory Management System",
+    description: "A web-based inventory management system tailored for Bird Street Bistro, streamlining stock tracking and order management.",
     category: "web",
+    link: "https://github.com/repo3245/ims-portfolio"
   },
   {
     id: 5,
     image: Work5,
-    title: "Chat App",
+    title: "Portfolio Website",
+    description: "A personal portfolio website showcasing projects, skills, and experiences, designed to be visually appealing and informative.",
     category: "web",
+    link: "https://github.com/repo3245/portfolio-oscar"
+  },
+  {
+    id: 6,
+    image: Work6,
+    title: "expressBookReviews",
+    description: "A web application that allows users to review and discuss books, featuring a simple and intuitive interface built with Express.js.",
+    category: "web",
+    link: "https://github.com/repo3245/expressBookReviews"
   },
 ];
 

@@ -90,7 +90,7 @@
 }
 
 .services__modal-description {
-    font-size: var(--small-font-size);
+
     padding: 0 3.5rem;
     margin-bottom: var(--mb-2);
 }
@@ -108,11 +108,10 @@
 .services__modal-icon {
     color: var(--title-color);
     font-size: 1.1rem;
+    position: relative;
+    top: -.47rem;
 }
 
-.services__modal-info {
-    font-size: var(--small-font-size);
-}
 
 /* Active Modal */
 .active-modal {
@@ -129,6 +128,14 @@
 
     .services__button {
         font-size: var(--tiny-font-size);
+    }
+
+    .services__modal-description {
+        font-size: var(--smaller-font-size);
+    }
+
+    .services__modal-info {
+        font-size: var(--smaller-font-size);
     }
 }
 
@@ -149,6 +156,14 @@
     .services__button {
         font-size: var(--tiny-font-size);
     }
+
+    .services__modal-description {
+        font-size: var(--smaller-font-size);
+    }
+
+    .services__modal-info {
+        font-size: var(--smaller-font-size);
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -162,6 +177,14 @@
 
     .services__button {
         font-size: var(--tiny-font-size);
+    }
+
+    .services__modal-description {
+        font-size: var(--smaller-font-size);
+    }
+
+    .services__modal-info {
+        font-size: var(--smaller-font-size);
     }
 }
 
@@ -177,5 +200,13 @@
 
     .services__button {
         font-size: var(--tiny-font-size);
+    }
+
+    .services__modal-description {
+        font-size: var(--smaller-font-size);
+    }
+
+    .services__modal-info {
+        font-size: var(--smaller-font-size);
     }
 }

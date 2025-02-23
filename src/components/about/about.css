@@ -5,9 +5,11 @@
 }
 
 .about__img {
-    width: 390px;
-    border-radius: 1.5rem;
+    width: 290px;
+    border-radius: 1.3rem;
     justify-self: center;
+    position: relative;
+    bottom: 7rem;
 }
 
 .about__info {
@@ -45,13 +47,26 @@
     margin-bottom: 0;
 }
 
+.about__download {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 0;
+}
+
+.about__download:hover {
+    color: var(--title-color);
+}
+
+
 .about__subtitle {
     font-size: var(--small-font-size);
+
 }
 
 .about__description {
     padding: 0 4rem 0 0;
     margin-bottom: var(--mb-2-5);
+    text-align: left;
 }
 
 /*=============== BREAKPOINTS ===============*/
@@ -64,6 +79,8 @@
 
     .about__img {
         width: 220px;
+        position: relative;
+        bottom: 0rem;
     }
 
     .about__box {
@@ -84,7 +101,16 @@
     }
 
     .about__title {
-        font-size: var(--tiny-font-size);
+        font-size: var(--smaller-font-size);
+    }
+
+    .about__download {
+        font-size: var(--smaller-font-size);
+    }
+
+    .about__download:hover {
+        font-size: var(--smaller-font-size);
+        color: var(--onhover-color);
     }
 
     .about__subtitle {
@@ -94,8 +120,13 @@
 
 /* For medium devices */
 @media screen and (max-width: 576px) {
+    .about__img {
+        position: relative;
+        bottom: 0rem;
+    }
+
     .about__info {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .about__description {
@@ -109,6 +140,11 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
+    .about__img {
+        position: relative;
+        bottom: 0rem;
+    }
+
     .about__info {
         grid-template-columns: repeat(2, 1fr);
     }

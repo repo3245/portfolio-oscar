@@ -38,16 +38,17 @@
 
 .home__subtitle {
   position: relative;
-  font-size: var(--h3-font-size);
+  font-size: 1.3rem;
   padding-left: 5.4rem;
   font-weight: var(--font-normal);
   margin-bottom: var(--mb-1);
+  width: 520px;
 }
 
 .home__subtitle::before {
   content: "";
   position: absolute;
-  width: 70px;
+  width: 60px;
   height: 1px;
   background-color: var(--text-color);
   left: 0;
@@ -58,35 +59,6 @@
   max-width: 400px;
   margin-bottom: var(--mb-3);
 }
-
-.home__img {
-  background: url(../../assets/profile.jpg);
-  /* Sets the background image */
-  background-repeat: no-repeat;
-  /* Prevents the background image from repeating */
-  background-position: center;
-  /* Centers the background image */
-  background-size: cover;
-  /* Ensures the background image covers the entire container */
-  box-shadow: none;
-  /* Removes the box shadow */
-  order: 1;
-  /* Sets the order of the element in a grid or flex container */
-  justify-self: center;
-  /* Centers the element horizontally in a grid container */
-  width: 300px;
-  /* Sets the width of the element */
-  height: 370px;
-  /* Sets the height of the element */
-  /* border: 2px solid #fff; */
-  /* Adds a simple white border */
-  /* animation: profile__animate 8s ease-in-out infinite 1s; */
-  /* Applies an animation */
-  border-radius: 1.5rem;
-}
-
-
-
 
 @keyframes profile__animate {
   0% {
