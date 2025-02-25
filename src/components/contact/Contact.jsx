@@ -62,7 +62,7 @@ const Contact = () => {
               <i className="bx bxl-messenger contact__card-icon"></i>
 
               <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">Oscar Alcalde Rabanal</span>
+              <span className="contact__card-data">Oscar Alcalde</span>
 
               <a href="https://m.me/oscar" className="contact__button">
                 Message me

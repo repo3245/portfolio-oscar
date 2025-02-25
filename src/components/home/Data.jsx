@@ -4,7 +4,7 @@ const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Oscar Alcalde Rabanal
+        Oscar Alcalde
       </h1>
       <h3 className="home__subtitle">Full-Stack JavaScript Developer</h3>
       <p className="home__description">

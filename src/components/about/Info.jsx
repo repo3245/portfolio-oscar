@@ -1,12 +1,12 @@
 import React from "react";
-import CV from "../../assets/Smith-Cv.pdf";
+import resume from "../../assets/oscar-alcalde-resume.pdf";
 
 const Info = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = CV; // Replace with the actual path to your CV file
-    link.download = 'Resume.pdf'; // Replace with the desired file name
+    link.href = resume; // Replace with the actual path to your resume file
+    link.download = 'oscar-alcalde-resume.pdf'; // Replace with the desired file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -35,7 +35,7 @@ const Info = () => {
 
       <div className="about__box">
         <i className="bx bx-briefcase-alt about__icon"></i>
-        <a download="" href={CV} onClick={handleDownload}>
+        <a download="" href={resume} onClick={handleDownload}>
           <h3 className="about__download">Download Resume</h3>
         </a>
       </div>
