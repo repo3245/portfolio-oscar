@@ -43,7 +43,8 @@ This is a personal portfolio website designed to showcase my projects, skills, a
 
 ## Live Demo
 
-You can visit the live website at: [your-portfolio-url]([https://your-portfolio-url.com](https://oscaralcalder-portfolio-612f9ef4e1fa.herokuapp.com/))
+You can visit the live website at: [https://oscaralcalder-portfolio-612f9ef4e1fa.herokuapp.com/](https://oscaralcalder-portfolio-612f9ef4e1fa.herokuapp.com/)
+
 
 ## License
 
