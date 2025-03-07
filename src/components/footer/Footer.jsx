@@ -50,8 +50,9 @@ const Footer = () => {
         </ul>
 
         <div className="footer__social">
+
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/profile.php?id=100081053566110"
             className="footer__social-link"
             target="_blank"
           >
@@ -59,20 +60,21 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://www.instagram.com/"
+            href="https://github.com/repo3245"
             className="footer__social-link"
             target="_blank"
           >
-            <i className="bx bxl-instagram"></i>
+            <i className="bx bxl-github"></i>
           </a>
 
           <a
-            href="https://twitter.com/"
+            href="https://www.linkedin.com/in/oscar-alcalde-7ba48b352/"
             className="footer__social-link"
             target="_blank"
           >
-            <i className="bx bxl-twitter"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
+
         </div>
 
         <span className="footer__copy">

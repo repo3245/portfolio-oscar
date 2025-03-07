@@ -35,7 +35,7 @@ const Contact = () => {
               <span className="contact__card-data">alcalderabanalo@gmail.com</span>
 
               <a
-                href="mailto:examplemail@gmail.com"
+                href="mailto:alcalderabanalo@gmail"
                 className="contact__button"
               >
                 Email me

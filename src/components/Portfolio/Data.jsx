@@ -4,7 +4,7 @@ import Work3 from "../../assets/work03.png";
 import Work4 from "../../assets/work04.png";
 import Work5 from "../../assets/work05.png";
 import Work6 from "../../assets/work06.png";
-import Work7 from "../../assets/conscious.png";
+import image from "../../assets/conscious.png";
 
 export const projectsData = [
   {
@@ -12,7 +12,7 @@ export const projectsData = [
     image: Work1,
     title: "Meal To Go",
     description: "A mobile application designed to help users find and order meals on the go, featuring a user-friendly interface and quick delivery options.",
-    category: "app",
+    category: ["app"],
     link: "https://github.com/repo3245/MealsToGo"
   },
   {
@@ -20,15 +20,15 @@ export const projectsData = [
     image: Work2,
     title: "Conscious Hypnosis App",
     description: "An app that provides guided hypnosis sessions to help users relax, reduce stress, and improve mental well-being.",
-    category: "app",
-    image2: Work7
+    category: ["app", "design"],
+    image2: image
   },
   {
     id: 3,
     image: Work3,
     title: "Conscious Wear OS App",
     description: "A Wear OS application that integrates with the Conscious Hypnosis App, allowing users to access sessions directly from their smartwatch.",
-    category: "app",
+    category: ["app", "design"],
     link: "https://github.com/repo3245/ConsciousSW-wearOS-master-update"
   },
   {
@@ -36,7 +36,7 @@ export const projectsData = [
     image: Work4,
     title: "Bird Street Bistro Inventory Management System",
     description: "A web-based inventory management system tailored for Bird Street Bistro, streamlining stock tracking and order management.",
-    category: "web",
+    category: ["web"],
     link: "https://github.com/repo3245/ims-portfolio"
   },
   {
@@ -44,15 +44,15 @@ export const projectsData = [
     image: Work5,
     title: "Portfolio Website",
     description: "A personal portfolio website showcasing projects, skills, and experiences, designed to be visually appealing and informative.",
-    category: "web",
+    category: ["web"],
     link: "https://github.com/repo3245/portfolio-oscar"
   },
   {
     id: 6,
     image: Work6,
-    title: "expressBookReviews",
+    title: "Express Book Reviews",
     description: "A web application that allows users to review and discuss books, featuring a simple and intuitive interface built with Express.js.",
-    category: "web",
+    category: ["web"],
     link: "https://github.com/repo3245/expressBookReviews"
   },
 ];

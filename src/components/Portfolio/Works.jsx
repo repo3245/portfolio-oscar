@@ -20,7 +20,7 @@ const Projects = () => {
       setProjects(projectsData);
     } else {
       const newProjects = projectsData.filter((project) => {
-        return project.category.toLowerCase() === item.name;
+        return project.category.map(cat => cat.toLowerCase()).includes(item.name);
       });
       setProjects(newProjects);
     }
