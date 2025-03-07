@@ -76,10 +76,16 @@
     }
 
     .footer__list {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
         justify-content: center;
-        column-gap: 1.5rem;
+        align-items: center;
+        row-gap: 1rem;
         margin-bottom: var(--mb-2);
+        position: relative;
+        left: 60%;
+        transform: translateX(-50%);
         width: 80%;
     }
 }
