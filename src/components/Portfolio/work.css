@@ -1,6 +1,6 @@
 .work__container {
   gap: 3rem;
-  grid-template-columns: repeat(1, max-content);
+  grid-template-columns: repeat(3, max-content);
   justify-content: center;
 }
 
@@ -37,6 +37,8 @@
 .work__img {
   width: 450px;
   height: 365px;
+  object-fit: contain;
+
   border-radius: .7rem;
   margin-bottom: var(--mb-1);
 }
@@ -77,9 +79,11 @@
 
 /*==================== MEDIA QUERIES ====================*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1400px) {
   .work__container {
     gap: 1.25rem;
+    grid-template-columns: repeat(2, max-content);
+
   }
 
   .work__card {
@@ -100,9 +104,10 @@
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .work__container {
     grid-template-columns: max-content;
+    grid-template-columns: repeat(1, max-content);
   }
 
   .work__button {

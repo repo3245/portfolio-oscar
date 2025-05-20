@@ -26,15 +26,16 @@
   --h3-font-size: 1.25rem;
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
-  --smaller-font-size: 0.813rem;
   --tiny-font-size: 0.815rem;
+  --smaller-font-size: 0.813rem;
+
 
   /*========== Font weight ==========*/
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
+  /*========== Margins Bottom ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;

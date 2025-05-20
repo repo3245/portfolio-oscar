@@ -1,12 +1,12 @@
 import React from "react";
-import resume from "../../assets/oscar-alcalde-resume.pdf";
+import resume from "../../assets/Oscar_Alcalde_FullStack_JS_Developer.pdf";
 
 const Info = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = resume; // Replace with the actual path to your resume file
-    link.download = 'oscar-alcalde-resume.pdf'; // Replace with the desired file name
+    link.download = 'Oscar_Alcalde_FullStack_JS_Developer.pdf'; // Replace with the desired file name
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

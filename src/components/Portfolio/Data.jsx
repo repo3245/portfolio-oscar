@@ -4,6 +4,8 @@ import Work3 from "../../assets/work03.png";
 import Work4 from "../../assets/work04.png";
 import Work5 from "../../assets/work05.png";
 import Work6 from "../../assets/work06.png";
+import Work7 from "../../assets/work07.png";
+import Work8 from "../../assets/work08.png";
 import image from "../../assets/conscious.png";
 
 export const projectsData = [
@@ -55,6 +57,22 @@ export const projectsData = [
     category: ["web"],
     link: "https://github.com/repo3245/expressBookReviews"
   },
+  {
+    id: 7,
+    image: Work7,
+    title: "Marketing Ecommerce Website",
+    description: "A marketing website designed to showcase an eCommerce platform, featuring a clean and intuitive interface that drives engagement and sales.",
+    category: ["web"],
+    link: "https://github.com/repo3245/marketing_ecommerce_website"
+  },
+  {
+    id: 8,
+    image: Work8,
+    title: "ByteWork",
+    description: "ByteWork connects freelancers and clients with seamless cryptocurrency payments, featuring a sleek and modern interface designed for ease of use.",
+    category: ["web", "design"],
+    link: "https://github.com/repo3245/ByteWorkWebsite",
+  }
 ];
 
 // projects
