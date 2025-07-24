@@ -68,10 +68,10 @@ export const projectsData = [
   {
     id: 8,
     image: Work8,
-    title: "ByteWork",
-    description: "ByteWork connects freelancers and clients with seamless cryptocurrency payments, featuring a sleek and modern interface designed for ease of use.",
+    title: "Vidio AI Editor",
+    description: "Vidio AI Editor is an AI-powered media transformation platform designed to condense long-form videos, articles, and presentations into engaging, short-form content optimized for social media. Whether you're a creator, educator, journalist, or business professional, Nano Reel Editor helps you instantly extract the most valuable insights and format them for maximum impact on platforms like Instagram, TikTok, X, and LinkedIn.",
     category: ["web", "design"],
-    link: "https://github.com/repo3245/ByteWorkWebsite",
+    link: "https://github.com/repo3245/VIDIO-AI-EDITOR",
   }
 ];
 
